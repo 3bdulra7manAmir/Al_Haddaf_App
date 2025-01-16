@@ -25,14 +25,14 @@ class CustomServices extends StatelessWidget
               CustomServicesCardNew(
                 buttonData:
                   [
-                    {'text': 'حجز اختبارات', 'iconPath': 'assets/svg/correct1.svg'},
-                    {'text': 'حجز اكاديمية', 'iconPath': 'assets/svg/ball_yellow_1.svg'},
-                    {'text': 'تسويق لاعبين', 'iconPath': 'assets/svg/play_1.svg'},
-                    {'text': 'بورصة اللاعبيـن', 'iconPath': 'assets/svg/boy_1.svg'},
-                    {'text': 'شاهـد', 'iconPath': 'assets/svg/play_yellow_2.svg'},
-                    {'text': 'بورصة المدربين', 'iconPath': 'assets/svg/soldier_1.svg'},
-                    {'text': 'رحلات رياضيـة', 'iconPath': 'assets/svg/barca_1.svg'},
-                    {'text': 'حجز نـادى رياضى', 'iconPath': 'assets/svg/runner_1.svg'},
+                    {'text': 'حجز اختبارات', 'iconPath': 'assets/images/svg/correct1.svg'},
+                    {'text': 'حجز اكاديمية', 'iconPath': 'assets/images/svg/ball_yellow_1.svg'},
+                    {'text': 'تسويق لاعبين', 'iconPath': 'assets/images/svg/play_1.svg'},
+                    {'text': 'بورصة اللاعبيـن', 'iconPath': 'assets/images/svg/boy_1.svg'},
+                    {'text': 'شاهـد', 'iconPath': 'assets/images/svg/play_yellow_2.svg'},
+                    {'text': 'بورصة المدربين', 'iconPath': 'assets/images/svg/soldier_1.svg'},
+                    {'text': 'رحلات رياضيـة', 'iconPath': 'assets/images/svg/barca_1.svg'},
+                    {'text': 'حجز نـادى رياضى', 'iconPath': 'assets/images/svg/runner_1.svg'},
                   ],
               ),
               

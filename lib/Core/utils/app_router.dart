@@ -1,3 +1,4 @@
+import 'package:al_haddaf/Features/auth_screens/login.dart';
 import 'package:al_haddaf/Features/re_sport_trips/re_sport_trips.dart';
 import 'package:al_haddaf/Features/show_tr_profiles/show_tr_profiles_viewbody.dart';
 import 'package:al_haddaf/Features/sp_trips/sp_trips_viewbody.dart';
@@ -11,6 +12,7 @@ abstract class AppRouter
   static const kSpTripsViewBody = '/spTripsViewBody';
   static const kShowTrProfilesViewbody = '/showTrProfilesViewbody';
   static const kTrainerInfo = '/trainerInfo';
+  static const kLoginScreenUpdated = '/loginScreenUpdated';
 
   static final router = GoRouter(
     routes:
@@ -37,7 +39,7 @@ abstract class AppRouter
 
       GoRoute(
         path: '/',
-        builder: (context, state) =>  ReSpTripsViewBody(),
+        builder: (context, state) =>  LoginScreenUpdated(),
       ),
 
     ],

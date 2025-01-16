@@ -29,7 +29,7 @@ class CustomCard extends StatelessWidget
           child: Stack(
             children:
             [
-              Image.asset('assets/images/player3.png',),
+              Image.asset('assets/images/png/player3.png',),
               ClipRRect( borderRadius: BorderRadius.circular(10),
                 child: Container(
                   height: MediaQuery.of(context).size.height * 0.239,
@@ -55,7 +55,7 @@ class CustomCard extends StatelessWidget
                 builder: (context) => PopUpCard(),
               );
               },
-              child: Image.asset('assets/images/Video_Play_icon.png', width: 45,)),
+              child: Image.asset('assets/images/png/Video_Play_icon.png', width: 45,)),
           ),
         ),
     
@@ -88,7 +88,7 @@ class CustomCard extends StatelessWidget
                   Icon(Icons.circle, size: 9.0, color: Colors.orange),
                   SizedBox(width: 55.0),
                   //Spacer(), ERROR
-                  Image.asset('assets/images/Egyptain_Flag.png',),
+                  Image.asset('assets/images/png/Egyptain_Flag.png',),
                   SizedBox(width: 5.0),
                   Icon(Icons.circle, size: 9.0, color: Colors.orange),
                 ],

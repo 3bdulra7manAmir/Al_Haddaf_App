@@ -56,7 +56,7 @@ class PopUpCard extends StatelessWidget
                         Stack(
                           children:
                           [
-                            Image.asset('assets/images/player3.png',),
+                            Image.asset('assets/images/png/player3.png',),
                             Container(height: MediaQuery.of(context).size.height * 0.5,
                             color: Color.fromRGBO(13, 77, 58, 0.63).withOpacity(0.5),),
 
@@ -69,7 +69,7 @@ class PopUpCard extends StatelessWidget
                                     {
                                       print('A7a');
                                     },
-                                    child: Image.asset('assets/images/Video_Play_icon.png',width: 45,
+                                    child: Image.asset('assets/images/png/Video_Play_icon.png',width: 45,
                                     )),
                               ),
                             ),

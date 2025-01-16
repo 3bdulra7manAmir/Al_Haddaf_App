@@ -20,7 +20,7 @@ class RegisterScreenUpdated extends StatelessWidget {
                   top: -330,
                   left: -700,
                   child: Image.asset(
-                    'assets/images/standing_player.jpg',
+                    'assets/images/jpg/standing_player.jpg',
                   ),
                 ),
                 Container(
@@ -30,13 +30,13 @@ class RegisterScreenUpdated extends StatelessWidget {
                 ),
               ],
             ),
-                Positioned(top: -122, left: -70, child: Image.asset('assets/images/g_ball.png',),),                  
+                Positioned(top: -122, left: -70, child: Image.asset('assets/images/png/g_ball.png',),),                  
                 // Content Column
                 Column(
                   children: [
                     const SizedBox(height: 150),
                     
-                    Image.asset('assets/images/haddaflogo.png', height: 120.h,),
+                    Image.asset('assets/images/png/haddaflogo.png', height: 120.h,),
                     
                     const SizedBox(height: 10),
                     

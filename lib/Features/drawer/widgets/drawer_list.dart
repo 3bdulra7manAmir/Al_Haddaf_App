@@ -31,7 +31,7 @@ class DrawerList extends StatelessWidget
               ),
     
               ListTile(
-                leading: Image.asset('assets/images/services.png'),
+                leading: Image.asset('assets/images/png/services.png'),
                 title: Text('الخدمات'),
               ),
 
@@ -39,20 +39,20 @@ class DrawerList extends StatelessWidget
                 padding: EdgeInsets.only(right: 4),
                 child: ListTile(
                   //contentPadding: EdgeInsets.zero,
-                  leading: Image.asset('assets/images/human.png'), 
+                  leading: Image.asset('assets/images/png/human.png'), 
                   title: Text('افضل اللاعبين'),
                 ),
               ),
 
               ListTile(
-                leading: Image.asset('assets/images/winner.png'),  
+                leading: Image.asset('assets/images/png/winner.png'),  
                 title: Text('قصص نجاح الهداف'),
               ),
 
               Padding(
                 padding: EdgeInsets.only(right: 4),
                 child: ListTile(
-                  leading: Image.asset('assets/images/Profile.png'), 
+                  leading: Image.asset('assets/images/png/Profile.png'), 
                   title: Text('الصفحة  الشخصية'),
                 ),
               ),

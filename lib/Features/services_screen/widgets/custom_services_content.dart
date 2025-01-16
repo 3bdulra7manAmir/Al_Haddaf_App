@@ -49,7 +49,7 @@ class CustomServicesCardNew extends StatelessWidget
           mainAxisAlignment: MainAxisAlignment.end,
           children:
           [
-            SvgPicture.asset('assets/svg/ball.svg'),
+            SvgPicture.asset('assets/images/svg/ball.svg'),
             Spacer(),
             Text(text, style: TextStyle(fontSize: 14.sp), textAlign: TextAlign.center,),
             SizedBox(width: MediaQuery.of(context).size.width * 0.03),

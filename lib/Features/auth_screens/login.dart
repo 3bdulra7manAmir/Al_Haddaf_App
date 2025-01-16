@@ -15,12 +15,13 @@ class LoginScreenUpdated extends StatelessWidget
           children: [
             // Freely positioned images
             Stack(
-              children: [
+              children:
+              [
                 Positioned(
                   top: -330,
                   left: -700,
                   child: Image.asset(
-                    'assets/images/standing_player.jpg',
+                    'assets/images/jpg/standing_player.jpg',
                   ),
                 ),
                 Container(
@@ -34,12 +35,12 @@ class LoginScreenUpdated extends StatelessWidget
               top: -122,
               left: -70,
               child: Image.asset(
-                'assets/images/g_ball.png',
+                'assets/images/png/g_ball.png',
               ),
             ),
             Center(
               child: Image.asset(
-                'assets/images/haddaflogo.png',
+                'assets/images/png/haddaflogo.png',
                 height: 500.h,
                 width: 150.w,
                 // fit: BoxFit.cover,

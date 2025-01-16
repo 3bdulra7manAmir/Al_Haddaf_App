@@ -78,9 +78,9 @@ class MyDrawer extends StatelessWidget
                     onTap: () {Navigator.pop(context);},
                     child: Padding(
                       padding: EdgeInsets.only(bottom: 15),
-                      child: Image.asset('assets/images/close.png')),
+                      child: Image.asset('assets/images/png/close.png')),
                   ),
-                  Image.asset('assets/images/logo.png', width: 112, height: 57),
+                  Image.asset('assets/images/png/logo.png', width: 112, height: 57),
                 ],
                 ),
               ),

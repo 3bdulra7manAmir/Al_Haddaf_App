@@ -10,7 +10,7 @@ class CustomSuccessStoryScroll extends StatelessWidget
     return Container(
       height: MediaQuery.of(context).size.height * 0.14,
       decoration: BoxDecoration(
-        image:DecorationImage(image: AssetImage('assets/images/Rectangle.png')),),
+        image:DecorationImage(image: AssetImage('assets/images/png/Rectangle.png')),),
       child: ListView.builder(
         shrinkWrap: true,
         reverse: true,
@@ -28,7 +28,7 @@ class CustomSuccessStoryScroll extends StatelessWidget
                   children:
                   [
                     ClipRRect(borderRadius: BorderRadius.circular(30),
-                        child: Image.asset('assets/images/player2.png', fit: BoxFit.cover,
+                        child: Image.asset('assets/images/png/player2.png', fit: BoxFit.cover,
                           width: 60,
                           height: 60,
                         )),

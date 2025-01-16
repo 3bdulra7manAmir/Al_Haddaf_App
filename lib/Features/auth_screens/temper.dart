@@ -16,7 +16,7 @@ class Choice extends StatelessWidget
           Stack(
             children:
             [
-              Positioned(top: 0, left: 0, right: -140, bottom: 0, child: Image.asset('assets/images/standing_player.jpg', fit: BoxFit.cover,
+              Positioned(top: 0, left: 0, right: -140, bottom: 0, child: Image.asset('assets/images/jpg/standing_player.jpg', fit: BoxFit.cover,
               width: double.infinity,
               height: double.infinity,
             ),
@@ -27,7 +27,7 @@ class Choice extends StatelessWidget
                     color: Color(0xFF207054).withOpacity(0.85),
                   ),
 
-            Center(child: Image.asset('assets/images/new_logo.png'),),
+            Center(child: Image.asset('assets/images/png/new_logo.png'),),
             ],
           ),
           

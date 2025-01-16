@@ -20,7 +20,7 @@ class DateInputFieldState extends State<DateInputField>
       controller: dateController,
       cursorColor: Colors.green,
       decoration: InputDecoration(
-        prefixIcon: SvgPicture.asset('assets/svg/calender_icon.svg'),
+        prefixIcon: SvgPicture.asset('assets/images/svg/calender_icon.svg'),
         border: OutlineInputBorder(),
         fillColor: Colors.green,
         iconColor: Colors.green,

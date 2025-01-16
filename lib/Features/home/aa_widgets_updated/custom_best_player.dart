@@ -25,7 +25,7 @@ class CustomBestPlayersScroll extends StatelessWidget
           crossAxisAlignment: CrossAxisAlignment.center,
           children:
           [      
-            Image.asset('assets/images/player.png', fit: BoxFit.cover, ),
+            Image.asset('assets/images/png/player.png', fit: BoxFit.cover, ),
             SizedBox(height: 6,),
             Text('عبدالله سالم', style: TextStyle(fontSize: 14.sp, color: Colors.black,),
             textAlign: TextAlign.center,

@@ -17,7 +17,7 @@ class CustomShowAll extends StatelessWidget
         mainAxisAlignment: MainAxisAlignment.end,
         children:
         [
-          SvgPicture.asset('assets/svg/arrow.svg'),
+          SvgPicture.asset('assets/images/svg/arrow.svg'),
           GestureDetector(onTap: (){},
             child: Text('عرض الكل', style: TextStyle(fontSize: 14.sp, color: Color.fromRGBO(149, 149, 149, 1)),)), //HERE
           Spacer(),

@@ -30,7 +30,7 @@ class CustomAppBar extends StatelessWidget
             ),
           ),
           // Background image
-          Positioned(left: -120, top: -100, child: Image.asset('assets/images/g_ball.png', fit: BoxFit.cover,),),
+          Positioned(left: -120, top: -100, child: Image.asset('assets/images/png/g_ball.png', fit: BoxFit.cover,),),
 
           // AppBar content (menu, logo, etc.)
           Column(
@@ -46,14 +46,14 @@ class CustomAppBar extends StatelessWidget
                     // Left side - Menu icon
                     Padding(
                       padding: EdgeInsets.only(top: 3),
-                      child: GestureDetector(onTap: () {}, child: SvgPicture.asset('assets/svg/menu_icon2.svg', width: 36.61, height: 36.61,),
+                      child: GestureDetector(onTap: () {}, child: SvgPicture.asset('assets/images/svg/menu_icon2.svg', width: 36.61, height: 36.61,),
                       ),
                     ),
                     // Right side - Logo and text
                     Row(
                       children:
                       [
-                        Image.asset('assets/images/logo.png', height: 57, width: 112,),
+                        Image.asset('assets/images/png/logo.png', height: 57, width: 112,),
                       ],
                     ),
                   ],
@@ -91,7 +91,7 @@ class CustomAppBar extends StatelessWidget
                       ),
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 10),
-                        child: SvgPicture.asset('assets/svg/search_icon.svg'),
+                        child: SvgPicture.asset('assets/images/svg/search_icon.svg'),
                       ),
                     ],
                   ),

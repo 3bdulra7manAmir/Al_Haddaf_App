@@ -23,7 +23,7 @@ class CustomWatchScroll extends StatelessWidget
               [
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12),
-                  child: Image.asset('assets/images/watch.png', fit: BoxFit.cover,),
+                  child: Image.asset('assets/images/png/watch.png', fit: BoxFit.cover,),
                   ),
                 Opacity( opacity: 0.5,
                   child: Icon(
