@@ -15,7 +15,6 @@ abstract class AppRouter
   static final router = GoRouter(
     routes:
     [
-
       GoRoute(
         path: kReSportTripsView,
         builder: (context, state) => ReSpTripsViewBody(),

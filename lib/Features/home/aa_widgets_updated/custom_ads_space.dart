@@ -22,7 +22,7 @@ class CustomAdsScroll extends StatelessWidget
           alignment: Alignment.center,
           children:
           [      
-            Image.asset('assets/images/AdsSection.png', width: MediaQuery.of(context).size.width * 0.9, fit: BoxFit.cover,),
+            Image.asset('assets/images/png/AdsSection.png', width: MediaQuery.of(context).size.width * 0.9, fit: BoxFit.cover,),
             Center(
               child: Text(
                 'مساحة إعلانية', style: TextStyle( fontSize: 19.sp, color: Colors.white, ), //HERE

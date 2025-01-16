@@ -51,7 +51,7 @@ class CustomDropdown extends StatelessWidget {
           isExpanded: true,
           icon: Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Image.asset('assets/images/arrowDowen.png'),
+            child: Image.asset('assets/images/png/arrowDowen.png'),
           ),
           items: items.map((String value) {
             return DropdownMenuItem<String>(

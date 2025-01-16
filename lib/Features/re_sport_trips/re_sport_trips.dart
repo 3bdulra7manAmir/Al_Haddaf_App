@@ -1,7 +1,7 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:al_haddaf/Features/customdropdown.dart';
-import 'package:al_haddaf/Features/pricing_config.dart';
+import 'package:al_haddaf/Core/utils/pricing_config.dart';
 import 'package:al_haddaf/Features/re_sport_trips/birth_picker_logic.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -190,6 +190,7 @@ class _ReSpTripsViewBodyState extends State<ReSpTripsViewBody>
                   child: IntlPhoneField(
                     textAlignVertical: TextAlignVertical.center,
                     textAlign: TextAlign.end, //HERE
+                    cursorColor: Colors.black,
                     
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
