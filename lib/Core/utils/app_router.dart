@@ -1,8 +1,8 @@
-import 'package:al_haddaf/Features/auth_screens/login.dart';
 import 'package:al_haddaf/Features/re_sport_trips/re_sport_trips.dart';
 import 'package:al_haddaf/Features/show_tr_profiles/show_tr_profiles_viewbody.dart';
 import 'package:al_haddaf/Features/sp_trips/sp_trips_viewbody.dart';
 import 'package:al_haddaf/Features/sp_trips/widgets/sp_trips_card.dart';
+import 'package:al_haddaf/Features/trainer_info/trainer_info.dart';
 import 'package:go_router/go_router.dart';
 
 abstract class AppRouter
@@ -39,7 +39,7 @@ abstract class AppRouter
 
       GoRoute(
         path: '/',
-        builder: (context, state) =>  LoginScreenUpdated(),
+        builder: (context, state) =>  TrainerInfo(),
       ),
 
     ],

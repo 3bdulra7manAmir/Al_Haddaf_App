@@ -12,59 +12,42 @@ class LoginScreenUpdated extends StatelessWidget
     return Scaffold(
       body: SingleChildScrollView(
         child: Stack(
-          children: [
+          children:
+          [
             // Freely positioned images
             Stack(
               children:
               [
-                Positioned(
-                  top: -330,
-                  left: -700,
-                  child: Image.asset(
-                    'assets/images/jpg/standing_player.jpg',
-                  ),
-                ),
-                Container(
-                  height: 370.h,
-                  width: double.infinity,
-                  color: Color(0xFF207054).withOpacity(0.85),
-                ),
+                Positioned(top: -295.h, left: -640.w,
+
+                child: Image.asset('assets/images/jpg/standing_player.jpg',),),
+
+                Container(height: 370.h, width: double.infinity, color: Color(0xFF207054).withOpacity(0.85),),
               ],
             ),
-            Positioned(
-              top: -122,
-              left: -70,
-              child: Image.asset(
-                'assets/images/png/g_ball.png',
-              ),
-            ),
-            Center(
-              child: Image.asset(
-                'assets/images/png/haddaflogo.png',
-                height: 500.h,
-                width: 150.w,
-                // fit: BoxFit.cover,
-              ),
-            ),
-            // Content Column
-            //  SizedBox(height: 400,),
+            
+            Positioned(top: -100.h, left: -65.w, child: Image.asset('assets/images/png/g_ball.png',),),
+
+            Center(child: Image.asset('assets/images/png/haddaflogo.png', height: 500.h, width: 150.w,),),
+
             Column(
-              children: [
+              children:
+              [
                 const SizedBox(height: 150),
-        
-                // const SizedBox(height: 10),
-        
+                
                 // Form Container (unchanged)
                 Padding(
-                  padding: const EdgeInsets.only(top: 100),
+                  padding: EdgeInsets.only(top: 85.h),
+
                   child: Container(
                     height: MediaQuery.of(context).size.height,
                     width: double.infinity,
-                    padding: const EdgeInsets.all(16),
+                    padding: EdgeInsets.all(16.r),
                     decoration: BoxDecoration(
                       color: Colors.white,
-                      borderRadius: BorderRadius.circular(20),
-                      boxShadow: [
+                      borderRadius: BorderRadius.circular(20.r),
+                      boxShadow:
+                      [
                         BoxShadow(
                           color: Colors.black.withOpacity(0.1),
                           blurRadius: 10,
@@ -72,40 +55,26 @@ class LoginScreenUpdated extends StatelessWidget
                         ),
                       ],
                     ),
+
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.end,
-                      children: [
-                        Align(
-                          alignment: Alignment.center,
-                          child:  Text(
-                            "مرحبا بك",
-                            style: TextStyle(
-                              fontSize: 14.sp,
-                              color: Color(0xff414141),
-                            ),
-                          ),
+                      children:
+                      [
+                        Align(alignment: Alignment.center,
+                          child:  Text("مرحبا بك", style: TextStyle(fontSize: 14.sp, color: Color(0xff414141),),),
                         ),
+
                         const SizedBox(height: 10),
-                        Align(
-                          alignment: Alignment.center,
-                          child:  Text(
-                            "تسجيل الدخول",
-                            style: TextStyle(
-                              fontSize: 24.sp,
-                              fontWeight: FontWeight.bold,
-                              color: Color(0xFF0D6E47),
-                            ),
-                          ),
+
+                        Align(alignment: Alignment.center,
+                          child:  Text("تسجيل الدخول", style: TextStyle(fontSize: 24.sp, fontWeight: FontWeight.bold, color: Color(0xFF0D6E47),),),
                         ),
+
                         const SizedBox(height: 30),
-                         Text(
-                          "البريد الالكتروني",
-                          style: TextStyle(
-                            fontSize: 14.sp,
-                            color: Color(0xff414141),
-                          ),
-                        ),
-                        SizedBox(height: 10),
+                         Text("البريد الالكتروني", style: TextStyle(fontSize: 14.sp, color: Color(0xff414141),),),
+
+                        const SizedBox(height: 10),
+                        
                         SizedBox(
                           height: 45,
                           child: TextFormField(

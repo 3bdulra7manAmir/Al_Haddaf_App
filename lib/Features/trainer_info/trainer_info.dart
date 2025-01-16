@@ -78,7 +78,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("10 سنوات", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("10 سنوات", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("سنوات الخبرة : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -93,7 +93,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("تربية رياضية", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("تربية رياضية", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("المؤهل الاكاديمى : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -108,7 +108,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("تدريب ناشئين نادى حرس الحدود", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("تدريب ناشئين نادى حرس الحدود", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("الخبرات العملية : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -123,7 +123,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("رخصة تدريب A", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("رخصة تدريب A", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("الشهادات التدريبية : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -138,7 +138,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("الهجوم المرتد", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("الهجوم المرتد", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("الاسلوب التدريبى المفضل : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -153,9 +153,10 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("الاستراتيجيات المستخدمة فى المباريات", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  
+                                  Text("التحكم فى مجرى المباراة", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 12.5.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
-                                  Text("التحكم فى مجرى المباراة : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
+                                  Text("الاستراتيجيات المستخدمة فى المباريات :", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
                                   Image.asset("assets/images/png/Yellow_Dot.png"),
                                 ],
@@ -168,7 +169,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("الفوز بدورى الناشئين", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("الفوز بدورى الناشئين", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("النجاحات السابقة : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -183,7 +184,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("34", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("34", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("عدد المباريات التى ادارها خلا الموسم الماضى : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -198,14 +199,14 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("92%", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("92%", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("نسبة الفوز : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
                                   Image.asset("assets/images/png/Yellow_Dot.png"),
                                 ],
                               ),
-                                
+                              
                               SizedBox(height: 10.h,),
                                 
                               // طريقة التعامل مع التحديات والضغوط
@@ -213,9 +214,24 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("التركيز والتخطيط", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("التركيز والتخطيط", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("طريقة التعامل مع التحديات والضغوط : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
+                                  SizedBox(width: 5.w,),
+                                  Image.asset("assets/images/png/Yellow_Dot.png"),
+                                ],
+                              ),
+            
+                              SizedBox(height: 10.h,),
+                                
+                              // طريقة التعامل مع التحديات والضغوط
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children:
+                                [
+                                  Text("تواصل مباشر ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
+                                  SizedBox(width: 5.w,),
+                                  Text("اسلوب التواصل مع الفريق والادارة : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
                                   Image.asset("assets/images/png/Yellow_Dot.png"),
                                 ],
@@ -228,7 +244,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("التطور الرياضى والتدريبى", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("التطور الرياضى والتدريبى", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("الخطط المستقبلية : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -243,7 +259,7 @@ class TrainerInfo extends StatelessWidget
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children:
                                 [
-                                  Text("تدريب فريق بالدورى الممتاز", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, )),
+                                  Text("تدريب فريق بالدورى الممتاز", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff0D4D3A))),
                                   SizedBox(width: 5.w,),
                                   Text("الاهداف : ", textAlign: TextAlign.start, textDirection: TextDirection.rtl, style: TextStyle(fontSize: 13.sp, color: Color(0xff959595))),
                                   SizedBox(width: 5.w,),
@@ -258,7 +274,7 @@ class TrainerInfo extends StatelessWidget
                     ),
                   ),
                 ),
-
+            
                 Positioned(
                   top: MediaQuery.of(context).size.height * 0.01,
                   left: MediaQuery.of(context).size.width * 0.045,
